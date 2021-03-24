@@ -2,7 +2,7 @@
 Sample input and processed output files for Zacros Kinetic Monte Carlo simulations for determining dynamics of Pd nanocluster formation under pressure of CO
 
 ## Computational Framework 
-![framework](docs/framework.jpg)
+![framework](docs/framework.svg)
 
 ## Sample Simulation Inputs
 Input files for Zacros simulations
