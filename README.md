@@ -6,8 +6,8 @@ Sample input and processed output files for Zacros Kinetic Monte Carlo simulatio
 
 ## Sample Simulation Inputs
 Input files for Zacros simulations
-- [Sample_Inputs](/paper_repo/Sample_Inputs)
+- [Sample_Inputs](/Sample_Inputs)
 
 ## Simulation Result Graphics
 Graphics produced from outputs of Zacros simulations
-- [Simulation_Result_Graphics](/paper_repo/Simulation_Result_Graphics)
+- [Simulation_Result_Graphics](/Simulation_Result_Graphics)
