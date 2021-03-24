@@ -1,0 +1,759 @@
+mechanism
+
+################################################################################
+
+reversible_step Pd1-diffusion-l0
+  sites 4
+  neighboring 1-2 1-3 2-4
+  initial
+      1 Pd* 1
+      2 * 1
+      3 * 1
+      4 * 1
+  final
+      1 * 1
+      2 Pd* 1
+      3 * 1
+      4 * 1
+
+  variant _
+    site_types               l0 l0 top4 top4
+    pre_expon                1.00000e+8
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.14
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd1-diffusion-l1
+  sites 6
+  neighboring 1-2 1-3 2-3 2-4 3-4 1-5 4-6
+  initial
+      1 Pd* 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 * 1
+      5 * 1
+      6 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+      5 * 1
+      6 * 1
+
+  variant _
+    site_types               l1 l0 l0 l1 top8 top8
+    pre_expon                1.00000e+4
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.05
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd1-diffusion-l2
+  sites 4
+  neighboring 1-2 1-3 2-3 2-4 3-4
+  initial
+      1 Pd* 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+
+  variant _
+    site_types               l2 l1 l1 l2 
+    pre_expon                1.00000e+8
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.05
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd1-diffusion-l3
+  sites 4
+  neighboring 1-2 1-3 2-3 2-4 3-4
+  initial
+      1 Pd* 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+
+  variant _
+    site_types               l3 l2 l2 l3 
+    pre_expon                1.00000e+8
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.05
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd2-diffusion-l0
+  sites 5
+  neighboring 1-2 1-3 2-3 1-4 2-4 2-5 3-5
+  initial
+      1 Pd* 1
+      2 Pd* 1
+      3 *   1 
+      4 * 1
+      5 * 1
+  final
+      1 *   1
+      2 Pd* 1
+      3 Pd* 1
+      4 * 1
+      5 * 1
+
+  variant _
+    site_types               l0 l0 l0 bridge4 bridge4
+    pre_expon                1.00000e+8
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.37
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd3-diffusion-l0
+  sites 6
+  neighboring 1-2 1-3 2-3 4-2 4-3 1-5 2-5 2-6 3-5 3-6 4-6
+  initial
+      1 Pd* 1
+      2 Pd* 1
+      3 Pd* 1
+      4 *   1
+      5 * 1
+      6 * 1
+  final
+      1 *   1
+      2 Pd* 1
+      3 Pd* 1
+      4 Pd* 1
+      5 * 1
+      6 * 1
+
+  variant _
+    site_types               l0 l0 l0 l0 hollow4 hollow4
+    pre_expon                1.00000e+13
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.71
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd4-diffusion-l0
+  sites 6
+  neighboring 1-2 1-3 2-3 2-4 3-4 3-5 3-6 4-5 5-6 
+  initial
+      1 Pd* 1
+      2 Pd* 1
+      3 Pd* 1
+      4 Pd* 1
+      5 *   1
+	  6 *   1
+  final
+      1 *   1
+      2 *   1
+      3 Pd* 1
+      4 Pd* 1
+      5 Pd* 1
+	  6 Pd* 1
+
+  variant _
+    site_types               l0 l0 l0 l0 l0 l0 
+    pre_expon                1.00000e+13
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                1.35
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd4_3d-diffusion-l0
+  sites 8
+  neighboring 1-2 1-3 2-3 1-4 2-4 3-4 2-5 3-5 2-6 3-6 5-6 1-7 2-7 4-7 2-8 5-8 6-8
+  initial
+      1 Pd* 1
+      2 Pd* 1
+      3 Pd* 1
+      4 Pd* 1
+      5 *   1
+	  6 *   1
+      7 * 1
+      8 * 1
+  final
+      1 *   1
+      2 Pd* 1
+      3 Pd* 1
+      4 *   1 
+      5 Pd* 1
+	  6 Pd* 1
+      7 * 1
+      8 * 1
+
+  variant _
+    site_types               l0 l0 l0 l1 l0 l1 hollow5 hollow5
+    pre_expon                1.00000e+13
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                1.35
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd1-hopping-l0-l1
+  sites 5
+  neighboring 1-2 1-3 2-3 2-4 2-5 3-4 3-5 4-5
+  initial
+      1 Pd* 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+	  5 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+	  5 Pd* 1 
+
+  variant _
+    site_types               l0 l0 l0 l0 l1 
+    pre_expon                1.00000e+13
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.85
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd1-hopping-l1-l2
+  sites 5
+  neighboring 1-2 1-3 2-3 2-4 2-5 3-4 3-5 4-5
+  initial
+      1 Pd* 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+	  5 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+	  5 Pd* 1
+
+  variant _
+    site_types               l1 l1 l1 l1 l2 
+    pre_expon                1.00000e+13
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.85
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Pd1-hopping-l2-l3
+  sites 5
+  neighboring 1-2 1-3 2-3 2-4 2-5 3-4 3-5 4-5
+  initial
+      1 Pd* 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+	  5 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 Pd* 1
+	  4 Pd* 1
+	  5 Pd* 1
+
+  variant _
+    site_types               l2 l2 l2 l2 l3 
+    pre_expon                1.00000e+13
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.85
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+step Pd1-drop-l1-l0
+  sites 4
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4
+  initial
+      1 Pd* 1
+      2 * 1
+	  3 * 1
+	  4 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 * 1
+	  4 * 1
+
+  variant _
+    site_types               l1 l0 l0 l0 
+    pre_expon                1.00000e+13
+    activ_eng                0.00
+  end_variant
+
+end_step
+
+################################################################################
+
+step Pd1-drop-l2-l1
+  sites 7
+  neighboring 1-2 1-3 1-4 1-5 1-6 1-7 2-3 2-4 3-4 5-6 5-7 6-7
+  initial
+      1 Pd* 1
+      2 * 1
+	  3 * 1
+	  4 * 1
+	  5 * 1
+	  6 * 1
+	  7 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 * 1
+	  4 * 1
+	  5 * 1
+	  6 * 1
+	  7 * 1
+
+  variant _
+    site_types               l2 l1 l1 l1 l1 l1 l1 
+    pre_expon                1.00000e+13
+    activ_eng                0.00
+  end_variant
+
+end_step
+
+################################################################################
+
+step Pd1-drop-l3-l2
+  sites 7
+  neighboring 1-2 1-3 1-4 1-5 1-6 1-7 2-3 2-4 3-4 5-6 5-7 6-7
+  initial
+      1 Pd* 1
+      2 * 1
+	  3 * 1
+	  4 * 1
+	  5 * 1
+	  6 * 1
+	  7 * 1
+  final
+      1 * 1
+      2 Pd* 1
+	  3 * 1
+	  4 * 1
+	  5 * 1
+	  6 * 1
+	  7 * 1
+
+  variant _
+    site_types               l3 l2 l2 l2 l2 l2 l2 
+    pre_expon                1.00000e+13
+    activ_eng                0.00
+  end_variant
+
+end_step
+
+################################################################################
+
+reversible_step CO-adsorption-top4
+  sites 2
+  neighboring 1-2
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 *   1
+  final
+     1 Pd* 1
+     2 CO* 1
+
+  variant _
+    site_types               l0 top4 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-top8
+  sites 2
+  neighboring 1-2
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 *   1
+  final
+     1 Pd* 1
+     2 CO* 1
+
+  variant _
+    site_types               l1 top8 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-bridge4
+  sites 3
+  neighboring 1-2 1-3 2-3
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 CO* 1
+
+  variant _
+    site_types               l0 l0 bridge4 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-bridge6
+  sites 3
+  neighboring 1-2 1-3 2-3
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 CO* 1
+
+  variant _
+    site_types               l0 l1 bridge6 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-bridge8
+  sites 3
+  neighboring 1-2 1-3 2-3
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 CO* 1
+
+  variant _
+    site_types               l1 l1 bridge8 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+
+################################################################################
+
+reversible_step CO-adsorption-hollow4
+  sites 5
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4 1-5 2-5 3-5
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+     5 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+     5 *   1
+
+  variant _
+    site_types               l0 l0 l0 hollow4 l1 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-hollow5
+  sites 4
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+
+  variant _
+    site_types               l0 l0 l1 hollow5 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-hollow7
+  sites 4
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+
+  variant _
+    site_types               l0 l1 l1 hollow7 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-hollow8
+  sites 4
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+
+  variant _
+    site_types               l1 l1 l1 hollow8 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Diff-co_pd1_top_0_1
+  sites 4
+  neighboring 1-2 1-3 3-4
+  initial
+     1 Pd* 1
+     2 CO* 1
+     3 *   1
+     4 *   1
+  final
+     1 *   1
+     2 *   1
+     3 Pd* 1
+     4 CO* 1
+
+  variant _
+    site_types               l0 top4 l0 top4 
+    pre_expon                1.00000e+08
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.62
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Diff-co_pd2_bridge_2_3
+  sites 5
+  neighboring 1-2 1-3 2-3 1-4 2-4 2-5 4-5
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 CO* 1
+     4 *   1
+     5 *   1
+  final
+     1 *   1
+     2 Pd* 1
+     3 *   1
+     4 Pd* 1
+     5 CO* 1
+
+  variant _
+    site_types               l0 l0 bridge4 l0 bridge4 
+    pre_expon                1.00000e+08
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                0.52
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Diff-co_pd3_hollow_6_6
+  sites 8
+  neighboring 1-2 1-3 1-4 2-3 2-4 2-5 2-6 3-4 3-5 3-6 5-6 1-7 2-7 3-7 2-8 3-8 5-8
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+     5 *   1
+     6 *   1
+     7 *   1
+     8 *   1
+  final
+     1 *   1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+     5 Pd* 1
+     6 CO* 1
+     7 *   1
+     8 *   1
+
+  variant _
+    site_types               l0 l0 l0 hollow4 l0 hollow4 l1 l1 
+    pre_expon                1.00000e+013
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                1.17
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step Diff-co_pd4_hollow_11_12
+  sites 8
+  neighboring 1-2 1-3 1-4 1-5 2-3 2-4 2-5 2-6 2-7 2-8 3-4 3-6 3-7 4-5 6-7 6-8 7-8
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 Pd* 1
+     5 CO* 1
+     6 *   1
+     7 *   1
+     8 *   1
+  final
+     1 *   1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+     5 *   1
+     6 Pd* 1
+     7 Pd* 1
+     8 CO* 1
+
+  variant _
+    site_types               l0 l0 l0 l1 hollow5 l0 l1 hollow5 
+    pre_expon                1.00000e+13
+    pe_ratio                 1.00000e+00
+    prox_factor              0.000
+    activ_eng                1.03
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+
+
+end_mechanism

@@ -1,0 +1,8 @@
+
+initial_state
+
+   seed_multiple Pd*   20
+      site_types l0
+   end_seed_multiple
+
+end_initial_state

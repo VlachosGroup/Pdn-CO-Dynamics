@@ -1,0 +1,518 @@
+# Pd dynamics testing including upto 32 clusters 
+
+energetics
+
+############################################################################
+cluster C1
+   sites  1
+   lattice_state
+     1 Pd* 1
+   variant _
+   site_types l0 
+   graph_multiplicity  1
+   cluster_eng -0.05127
+   end_variant
+end_cluster
+
+############################################################################
+cluster C10
+   sites  4
+   neighboring 1-2 1-3 2-3 2-4 3-4
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+     2 Pd* 1
+   variant _
+   site_types l1 l1 l1 l1
+   graph_multiplicity  2
+   cluster_eng  0.02132
+   end_variant
+end_cluster
+
+############################################################################
+cluster C11
+   sites  2
+   neighboring 1-2  
+   lattice_state
+     1 Pd* 1
+     2 Pd* 1
+   variant _
+   site_types l1 l2 
+   graph_multiplicity  1
+   cluster_eng -0.00511
+   end_variant
+end_cluster
+
+############################################################################
+cluster C12
+   sites  6
+   neighboring 1-2 1-3 1-4 2-3 2-4 3-4 3-5 3-6 4-5 4-6 5-6
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+   variant _
+   site_types l1 l2 l2 l2 l2 l3 
+   graph_multiplicity  1
+   cluster_eng -0.08210
+   end_variant
+end_cluster
+
+############################################################################
+cluster C13
+   sites  3
+   neighboring 1-2 1-3 2-3  
+   lattice_state
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l1 
+   graph_multiplicity  2
+   cluster_eng -0.16600
+   end_variant
+end_cluster
+
+############################################################################
+cluster C14
+   sites  6
+   neighboring 1-2 1-3 1-4 2-3 3-4 3-5 3-6 4-5 4-6 5-6
+   lattice_state
+     1 Pd* 1
+     2 Pd* 1
+     & & &
+	 & & &
+	 & & &
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l0 l1 
+   graph_multiplicity  1
+   cluster_eng -0.00044
+   end_variant
+end_cluster
+
+############################################################################
+cluster C15
+   sites  6
+   neighboring 1-3 1-4 2-3 2-4 2-5 3-4 3-5 3-6 5-6
+   lattice_state
+     1 Pd* 1
+	 2 Pd* 1
+     & & &
+	 & & &
+	 & & &
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l0 l1
+   graph_multiplicity  1
+   cluster_eng -0.00038
+   end_variant
+end_cluster
+
+############################################################################
+cluster C16
+   sites  3
+   neighboring 1-2 1-3 2-3  
+   lattice_state
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l1 l1 
+   graph_multiplicity  2
+   cluster_eng  0.00239
+   end_variant
+end_cluster
+
+############################################################################
+cluster C17
+   sites  6
+   neighboring 1-2 1-3 1-4 1-5 1-6 2-3 2-6 3-4 3-5 3-6 4-5
+   lattice_state
+     1 Pd* 1
+	 & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l1 l1 
+   graph_multiplicity  2
+   cluster_eng  0.05608
+   end_variant
+end_cluster
+
+############################################################################
+cluster C18
+   sites  8
+   neighboring 1-2 1-3 1-4 1-5 1-6 1-7 1-8 2-3 2-7 3-4 3-7 4-5 5-6 5-8 6-8 
+   lattice_state
+     1 Pd* 1
+	 & & &
+	 & & &
+	 & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l0 l0 l1 l1 
+   graph_multiplicity  2
+   cluster_eng  0.09132
+   end_variant
+end_cluster
+
+############################################################################
+cluster C19
+   sites  8
+   neighboring 1-2 1-4 1-5 1-6 1-8 2-3 2-4 2-7 3-4 3-7 4-5 4-7 5-6 5-8 6-8  
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l0 l0 l1 l1 
+   graph_multiplicity  1
+   cluster_eng  0.11159
+   end_variant
+end_cluster
+
+############################################################################
+cluster C2
+   sites  1
+   lattice_state
+     1 Pd* 1
+   variant _
+   site_types l1 
+   graph_multiplicity  1
+   cluster_eng -1.01169
+   end_variant
+end_cluster
+
+############################################################################
+cluster C20
+   sites  6
+   neighboring 1-2 1-3 1-5 2-3 2-4 2-5 2-6 3-4 3-5 4-6 5-6  
+   lattice_state
+     1 Pd* 1
+	 & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l1 l1 
+   graph_multiplicity  1
+   cluster_eng -0.02663
+   end_variant
+end_cluster
+
+############################################################################
+cluster C21
+   sites  6
+   neighboring 1-2 1-3 1-4 1-5 2-3 2-5 3-4 3-5 3-6 4-6 5-6
+   lattice_state
+     1 Pd* 1
+	 & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l1 l1 
+   graph_multiplicity  1
+   cluster_eng  0.02515
+   end_variant
+end_cluster
+
+############################################################################
+cluster C22
+   sites  6
+   neighboring 1-2 1-3 1-5 2-3 2-4 2-5 2-6 3-4 3-5 3-6 4-6  
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l1 l1 
+   graph_multiplicity  1
+   cluster_eng  0.12471
+   end_variant
+end_cluster
+
+############################################################################
+cluster C23
+   sites  6
+   neighboring 1-2 1-3 1-4 2-3 2-4 2-6 3-4 3-5 3-6 4-5 4-6
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l0 l1 l1 l1 l1 l2 
+   graph_multiplicity  1
+   cluster_eng -0.02312
+   end_variant
+end_cluster
+
+############################################################################
+cluster C24
+   sites  9
+   neighboring 1-2 1-3 1-6 1-8 2-3 2-4 2-6 2-7 3-4 3-5 3-6 4-5 5-6 6-7 6-8 6-9 7-8 7-9 8-9  
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+	 & & &
+	 & & &
+	 & & &
+     3 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l1 l1  l1 l1 l2 
+   graph_multiplicity  1
+   cluster_eng -0.22870
+   end_variant
+end_cluster
+
+############################################################################
+cluster C25
+   sites  3
+   neighboring 1-2 1-3 2-3  
+   lattice_state
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l1 l1 l2 
+   graph_multiplicity  2
+   cluster_eng -0.06014
+   end_variant
+end_cluster
+
+############################################################################
+cluster C26
+   sites  7
+   neighboring 1-2 1-3 1-5 1-6 2-3 2-4 2-6 3-4 3-5 4-5 4-6 4-7 5-6 5-7 6-7 
+   lattice_state
+     1 Pd* 1
+     2 Pd* 1
+     & & &
+     & & &
+	 & & &
+	 & & &
+     3 Pd* 1
+   variant _
+   site_types l1 l1 l1 l2 l2 l2 l3 
+   graph_multiplicity  2
+   cluster_eng -0.18050
+   end_variant
+end_cluster
+
+############################################################################
+cluster C27
+   sites  8
+   neighboring 1-2 1-3 1-6 2-3 2-4 2-5 2-6 2-8 3-4 3-6 4-5 4-7 5-7 5-8 7-8
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l1 l0 l0 l0 l0 l0 l1 l1 
+   graph_multiplicity  1
+   cluster_eng  0.00117
+   end_variant
+end_cluster
+
+############################################################################
+cluster C28
+   sites  6
+   neighboring 1-2 1-3 1-4 2-3 2-5 3-4 3-5 3-6 4-6  
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+     3 Pd* 1
+   variant _
+   site_types l1 l1 l1 l1 l1 l1 
+   graph_multiplicity  6
+   cluster_eng  0.48821
+   end_variant
+end_cluster
+
+############################################################################
+cluster C3
+   sites  1
+   lattice_state
+     1 Pd* 1
+   variant _
+   site_types l2 
+   graph_multiplicity  1
+   cluster_eng -0.35320
+   end_variant
+end_cluster
+
+############################################################################
+cluster C4
+   sites  1
+   lattice_state
+     1 Pd* 1
+   variant _
+   site_types l3 
+   graph_multiplicity  1
+   cluster_eng -0.40099
+   end_variant
+end_cluster
+
+############################################################################
+cluster C5
+   sites  2
+   neighboring 1-2  
+   lattice_state
+     1 Pd* 1
+     2 Pd* 1
+   variant _
+   site_types l0 l0 
+   graph_multiplicity  2
+   cluster_eng -0.46607
+   end_variant
+end_cluster
+
+############################################################################
+cluster C6
+   sites  4
+   neighboring 1-2 1-3 2-3 2-4 3-4 
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+     2 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0
+   graph_multiplicity  2
+   cluster_eng -0.00611
+   end_variant
+end_cluster
+
+############################################################################
+cluster C7
+   sites  2
+   neighboring 1-2  
+   lattice_state
+     1 Pd* 1
+     2 Pd* 1
+   variant _
+   site_types l0 l1 
+   graph_multiplicity  1
+   cluster_eng -0.00080
+   end_variant
+end_cluster
+
+############################################################################
+cluster C8
+   sites  6
+   neighboring 1-2 1-3 2-3 2-4 2-5 2-6 3-4 4-5 4-6 5-6 
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l0 l1 
+   graph_multiplicity  1
+   cluster_eng -0.03148
+   end_variant
+end_cluster
+
+############################################################################
+cluster C9
+   sites  5
+   neighboring 1-2 1-3 2-3 2-4 2-5 3-4 3-5 4-5  
+   lattice_state
+     1 Pd* 1
+     & & &
+	 & & &
+	 & & &
+     2 Pd* 1
+   variant _
+   site_types l0 l0 l0 l0 l1 
+   graph_multiplicity  1
+   cluster_eng -0.00750
+   end_variant
+end_cluster
+
+############################################################################
+cluster i1
+   sites  1
+   lattice_state
+     & & &
+   variant _
+   site_types 1
+   graph_multiplicity  1
+   cluster_eng  0.00074
+   end_variant
+end_cluster
+
+############################################################################
+cluster i2
+   sites  1
+   lattice_state
+     & & &
+   variant _
+   site_types 2
+   graph_multiplicity  1
+   cluster_eng  0.00074
+   end_variant
+end_cluster
+
+############################################################################
+cluster i3
+   sites  1
+   lattice_state
+     & & &
+   variant _
+   site_types 3
+   graph_multiplicity  1
+   cluster_eng  0.00074
+   end_variant
+end_cluster
+
+############################################################################
+cluster i4
+   sites  1
+   lattice_state
+     & & &
+   variant _
+   site_types 4
+   graph_multiplicity  1
+   cluster_eng  0.00074
+   end_variant
+end_cluster
+
+############################################################################
+end_energetics

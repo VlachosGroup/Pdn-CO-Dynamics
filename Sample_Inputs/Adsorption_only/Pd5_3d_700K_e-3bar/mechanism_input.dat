@@ -1,0 +1,239 @@
+mechanism
+
+
+################################################################################
+
+reversible_step CO-adsorption-top4
+  sites 2
+  neighboring 1-2
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 *   1
+  final
+     1 Pd* 1
+     2 CO* 1
+
+  variant _
+    site_types               l0 top4 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-top8
+  sites 2
+  neighboring 1-2
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 *   1
+  final
+     1 Pd* 1
+     2 CO* 1
+
+  variant _
+    site_types               l1 top8 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-bridge4
+  sites 3
+  neighboring 1-2 1-3 2-3
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 CO* 1
+
+  variant _
+    site_types               l0 l0 bridge4 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-bridge6
+  sites 3
+  neighboring 1-2 1-3 2-3
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 CO* 1
+
+  variant _
+    site_types               l0 l1 bridge6 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-bridge8
+  sites 3
+  neighboring 1-2 1-3 2-3
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 CO* 1
+
+  variant _
+    site_types               l1 l1 bridge8 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+
+################################################################################
+
+reversible_step CO-adsorption-hollow4
+  sites 5
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4 1-5 2-5 3-5
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+     5 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+     5 *   1
+
+  variant _
+    site_types               l0 l0 l0 hollow4 l1 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-hollow5
+  sites 4
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+
+  variant _
+    site_types               l0 l0 l1 hollow5 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-hollow7
+  sites 4
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+
+  variant _
+    site_types               l0 l1 l1 hollow7 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+reversible_step CO-adsorption-hollow8
+  sites 4
+  neighboring 1-2 1-3 1-4 2-3 2-4 3-4
+  gas_reacs_prods CO -1
+  initial
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 *   1
+  final
+     1 Pd* 1
+     2 Pd* 1
+     3 Pd* 1
+     4 CO* 1
+
+  variant _
+    site_types               l1 l1 l1 hollow8 
+    pre_expon                9.67000e-02
+    pe_ratio                 5.20000e-14
+    prox_factor              0.000
+    activ_eng                0.00
+  end_variant
+
+end_reversible_step
+
+################################################################################
+
+
+end_mechanism

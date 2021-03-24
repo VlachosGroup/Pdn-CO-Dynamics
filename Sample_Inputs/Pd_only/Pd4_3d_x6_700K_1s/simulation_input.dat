@@ -1,0 +1,41 @@
+# Pd growth model including upto  7 Pd atoms with  0 CO
+############################################################################
+random_seed         29744 # Random seed from Python wrapper
+
+temperature         700.0
+pressure            0.00000e+00
+
+n_gas_species       1
+gas_specs_names     CO
+gas_energies        0.000
+gas_molec_weights   28.010
+gas_molar_fracs     1.000
+
+n_surf_species      1
+surf_specs_names     Pd* 
+surf_specs_dent      1 
+
+snapshots                 on time 0.001
+process_statistics        on time 0.001
+species_numbers           on time 0.001
+
+
+event_report        off   
+
+max_steps           infinity
+
+max_time			1.0
+
+wall_time               864000
+
+enable_stiffness_scaling
+stiffness_scale_all
+
+no_restart
+#debug_report_global_energetics
+#debug_report_processes
+#debug_check_processes
+# debug_check_lattice
+
+
+finish              

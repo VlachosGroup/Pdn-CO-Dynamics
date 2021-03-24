@@ -1,0 +1,34 @@
+
+initial_state
+
+   seed_on_sites Pd* 1333
+   seed_on_sites Pd* 1370   
+   seed_on_sites Pd* 2073
+   seed_on_sites Pd* 1334
+   
+   seed_on_sites Pd* 815
+   seed_on_sites Pd* 852
+   seed_on_sites Pd* 1555
+   seed_on_sites Pd* 816
+      
+   seed_on_sites Pd* 13173
+   seed_on_sites Pd* 13210
+   seed_on_sites Pd* 13913
+   seed_on_sites Pd* 13174
+      
+   seed_on_sites Pd* 12692
+   seed_on_sites Pd* 12729
+   seed_on_sites Pd* 13432
+   seed_on_sites Pd* 12693
+      
+   seed_on_sites Pd* 7031
+   seed_on_sites Pd* 7068
+   seed_on_sites Pd* 7771
+   seed_on_sites Pd* 7032
+      
+   seed_on_sites Pd* 1111
+   seed_on_sites Pd* 1148
+   seed_on_sites Pd* 1851
+   seed_on_sites Pd* 1112
+
+end_initial_state

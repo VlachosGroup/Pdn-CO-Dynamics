@@ -1,0 +1,36 @@
+
+initial_state
+
+   # Layer 1
+   seed_on_sites Pd* 325
+   seed_on_sites Pd* 326   
+   seed_on_sites Pd* 334   
+   seed_on_sites Pd* 505
+   
+   seed_on_sites Pd* 199   
+   seed_on_sites Pd* 200   
+   seed_on_sites Pd* 208   
+   seed_on_sites Pd* 379
+      
+   seed_on_sites Pd* 3205   
+   seed_on_sites Pd* 3206   
+   seed_on_sites Pd* 3214   
+   seed_on_sites Pd* 3385
+      
+   seed_on_sites Pd* 3088   
+   seed_on_sites Pd* 3089   
+   seed_on_sites Pd* 3097   
+   seed_on_sites Pd* 3268
+      
+   seed_on_sites Pd* 1711   
+   seed_on_sites Pd* 1712   
+   seed_on_sites Pd* 1720   
+   seed_on_sites Pd* 1891
+      
+   seed_on_sites Pd* 271   
+   seed_on_sites Pd* 272   
+   seed_on_sites Pd* 280   
+   seed_on_sites Pd* 451
+
+
+end_initial_state
