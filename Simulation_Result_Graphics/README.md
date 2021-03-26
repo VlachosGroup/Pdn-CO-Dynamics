@@ -1,7 +1,8 @@
 # Palladium Nanocluster Lattice Kinetic Monte Carlo Simulation Results
 
 Included are graphics based on the results of simulations.
-Simulations are sorted by three replicates with CO pressure (Dup0, Dup1, Dup2) and without (Pd Only)
+Simulations are sorted by three replicates with CO pressure (Dup0, Dup1, Dup2) and without (Pd Only).
+The output files fromZacros were too large to be included.
 
 Information about each simulation can be found in the folder name or README.
 
