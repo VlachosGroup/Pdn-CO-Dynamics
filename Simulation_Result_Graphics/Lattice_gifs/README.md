@@ -1,5 +1,5 @@
-# Lattice Gifs
-Lattice movies showing development of nanoclusters
+# Lattice Animation
+Animation made from lattice snapshots showing development of nanoclusters
 
 ## 20 Single Pd atoms at 300K, 0.1 bar
 ![20 Single Pd atoms at 300K, 0.1 bar](https://github.com/jkalsch/PdnCO-Dynamics/blob/main/Simulation_Result_Graphics/Lattice_gifs/S20_300_e-1.gif)
