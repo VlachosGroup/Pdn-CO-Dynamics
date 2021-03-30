@@ -1,5 +1,10 @@
-# Palladium Nanocluster Lattice Kinetic Monte Carlo Simulations
-Sample input and processed output files for Zacros Kinetic Monte Carlo simulations for determining dynamics of Pd nanocluster formation under pressure of CO
+# Pdn-CO-Dynamics
+
+Lattice Kinetic Monte Carlo (KMC) Simulations for Subnanometer Pdn clusters Dynamics under pressure of CO
+
+The simulations are run in the graph-theoretical KMC software [Zacros](https://zacros.org/). The inputs and outputs are processed using the Python package [Zacros-Wrapper](https://github.com/VlachosGroup/Zacros-Wrapper/tree/master).
+
+This repository contains sample input files, processed output files, and structure visualizations.
 
 ## Computational Framework 
 ![framework](docs/framework.svg)
