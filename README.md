@@ -10,8 +10,8 @@ This repository contains sample input files, processed output files, and structu
 ## Computational Framework 
 ![framework](docs/framework.svg)
 
-## Simulation Configurations
-| Configuration Types | Configuration Sizes | Temperatures  | Pressures           |
+## Simulation Setup
+| Configuration Types | Number of Pd Atoms | Temperatures  | Pressures           |
 | ------------------- | ------------------- | ------------- | ---------------     |
 | Single Pd           | 8                   | 300K, 700K    | 0, 0.1 bar, 1 mbar  |
 |                     | 20                  | 300K          | 0, 0.1 bar, 1 mbar  |
