@@ -35,7 +35,7 @@ Naming of the files may also include identifying information of the simulation
 - Site_timeline_(Simulation) - counts of Pd and CO in each site type, with CO sites separated by Pd coordination number
 
 ## Lattice Gifs
-Lattice movies showing development of nanoclusters
+Animations showing development of nanoclusters
 - 20 Single Pd atoms at 300K, 0.1 bar
 - 6 Pd4_3d clusters at 300K, 0.1 bar
 - Pd20 pyramid at 0 bar
