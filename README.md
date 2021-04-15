@@ -2,7 +2,7 @@
 
 Lattice Kinetic Monte Carlo (KMC) Simulations for Subnanometer Pdn clusters Dynamics under pressure of CO.
 
-<img src="https://github.com/jkalsch/PdnCO-Dynamics/blob/main/Simulation_Result_Graphics/Lattice_gifs/S20_300_0bar.gif" width="800">
+<img src="https://github.com/jkalsch/PdnCO-Dynamics/blob/main/Simulation_Result_Graphics/Lattice_gifs/S20_300_0bar.gif" width="600">
 
 The simulations are run in the graph-theoretical KMC software [Zacros](https://zacros.org/). 
 The inputs and outputs are processed using the Python package [Zacros-Wrapper](https://github.com/VlachosGroup/Zacros-Wrapper/tree/master).
