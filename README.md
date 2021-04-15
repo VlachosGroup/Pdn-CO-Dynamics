@@ -30,5 +30,7 @@ Input files for Zacros simulations
 - [Sample_Inputs](/Sample_Inputs)
 
 ## Simulation Result Graphics
-Graphics produced from outputs of Zacros simulations
+Graphics produced from outputs of Zacros simulations including
+- Species count versus time profiles 
+- Animations of the structure evolution 
 - [Simulation_Result_Graphics](/Simulation_Result_Graphics)
