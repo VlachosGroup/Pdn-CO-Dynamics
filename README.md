@@ -27,10 +27,11 @@ This repository contains sample input files, processed output files, and structu
 
 ## Sample Simulation Inputs
 Input files for Zacros simulations
-- [Sample_Inputs](/Sample_Inputs)
+[Sample_Inputs](/Sample_Inputs)
 
 ## Simulation Result Graphics
 Graphics produced from outputs of Zacros simulations including
+[Simulation_Result_Graphics](/Simulation_Result_Graphics)
+
 - Species count versus time profiles 
 - Animations of the structure evolution 
-- [Simulation_Result_Graphics](/Simulation_Result_Graphics)
