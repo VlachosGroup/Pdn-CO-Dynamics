@@ -7,7 +7,7 @@ Animation made from lattice snapshots showing development of nanoclusters
 <img src="https://github.com/jkalsch/PdnCO-Dynamics/blob/main/Simulation_Result_Graphics/Lattice_gifs/S20_300_e-1.gif" width="600">
 
 ### 0 bar
-<img src="https://github.com/jkalsch/PdnCO-Dynamics/blob/main/Simulation_Result_Graphics/Lattice_gifs/S20_300_e-1.gif" width="600">
+<img src="https://github.com/jkalsch/PdnCO-Dynamics/blob/main/Simulation_Result_Graphics/Lattice_gifs/S20_300_0bar.gif" width="600">
 
 ## 6 Pd4_3d clusters at 300K
 ### 0.1 bar
