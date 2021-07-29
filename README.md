@@ -1,4 +1,5 @@
 # Pdn-CO-Dynamics
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5144374.svg)](https://doi.org/10.5281/zenodo.5144374)
 
 Lattice Kinetic Monte Carlo (KMC) Simulations for Subnanometer Pdn clusters Dynamics under pressure of CO.
 
